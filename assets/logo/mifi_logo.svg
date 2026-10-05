@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Logo « MiFi » : source vectorielle. Même géométrie que
+     tool/generate_logo.ps1 et ic_launcher_foreground.xml (Android). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" rx="225" fill="#000000"/>
+  <!-- Mot-symbole : 110,5 × 54,75 unités, largeur ramenée à 72 % du carré. -->
+  <g transform="translate(512 512) scale(6.672) translate(-55.25 -12.625)" fill="#FFFFFF">
+    <path d="M0,40L0,0L10,0L20,15L30,0L40,0L40,40L31,40L31,16L20,32L9,16L9,40Z"/>
+    <path d="M46,14h9v26h-9zM46,4.5a4.5,4.5 0 1 0 9 0a4.5,4.5 0 1 0 -9 0z"/>
+    <path d="M61,0h27v9h-18v8h13v9h-13v14h-9z"/>
+    <path d="M94,14h9v26h-9zM94.5,4.5a4,4 0 1 0 8 0a4,4 0 1 0 -8 0z"/>
+    <path d="M92.764,-3.692A10,10 0 0 1 104.236,-3.692M88.749,-9.426A17,17 0 0 1 108.251,-9.426"
+          fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

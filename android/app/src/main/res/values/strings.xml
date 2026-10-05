@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiFi</string>
+    <string name="tile_mobile_data_label">Données mobiles</string>
+    <string name="toggle_switching">Bascule…</string>
+    <string name="toggle_unknown">État inconnu</string>
+    <string name="status_widget_label">État du modem</string>
+    <string name="status_widget_description">Opérateur, signal, internet et appareils connectés</string>
+    <string name="status_widget_waiting">Ouvrez MiFi pour mettre à jour</string>
+    <string name="background_channel_name">Opérations en arrière-plan</string>
+    <string name="background_work_text">Opération sur le modem en cours…</string>
+    <string name="shortcut_share_wifi">Partager le Wi-Fi</string>
+    <string name="shortcut_speed_test">Test de débit</string>
+    <string name="monitor_channel_name">Surveillance de la connexion</string>
+    <string name="monitor_notification_title">Surveillance active</string>
+    <string name="monitor_notification_text">MiFi vous prévient dès qu’internet ne passe plus.</string>
+</resources>

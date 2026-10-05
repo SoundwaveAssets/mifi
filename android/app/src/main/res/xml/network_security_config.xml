@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Le modem n'expose qu'une interface HTTP en clair et son adresse est
+     configurable (elle change avec les réglages DHCP) : le trafic en clair est
+     donc autorisé pour toutes les adresses. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

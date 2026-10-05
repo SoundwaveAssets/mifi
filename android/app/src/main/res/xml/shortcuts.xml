@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccourcis de l'icône (appui long). -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="share_wifi"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_qr"
+        android:shortcutShortLabel="@string/shortcut_share_wifi">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.assoumou.mifi"
+            android:targetClass="com.assoumou.mifi.MainActivity">
+            <extra android:name="com.assoumou.mifi.ROUTE" android:value="share_wifi" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="speed_test"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_speed"
+        android:shortcutShortLabel="@string/shortcut_speed_test">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.assoumou.mifi"
+            android:targetClass="com.assoumou.mifi.MainActivity">
+            <extra android:name="com.assoumou.mifi.ROUTE" android:value="speed_test" />
+        </intent>
+    </shortcut>
+</shortcuts>

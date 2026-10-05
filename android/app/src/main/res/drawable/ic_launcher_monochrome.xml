@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône thématique (Android 13+) : même tracé que ic_launcher_foreground. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.535"
+        android:scaleY="0.535"
+        android:translateX="24.44"
+        android:translateY="47.25">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M0,40L0,0L10,0L20,15L30,0L40,0L40,40L31,40L31,16L20,32L9,16L9,40Z" />
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M46,14h9v26h-9zM46,4.5a4.5,4.5 0,1 0,9 0a4.5,4.5 0,1 0,-9 0z" />
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M61,0h27v9h-18v8h13v9h-13v14h-9z" />
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M94,14h9v26h-9zM94.5,4.5a4,4 0,1 0,8 0a4,4 0,1 0,-8 0z" />
+        <path
+            android:pathData="M92.764,-3.692A10,10 0,0 1,104.236,-3.692M88.749,-9.426A17,17 0,0 1,108.251,-9.426"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeWidth="4.5" />
+    </group>
+</vector>

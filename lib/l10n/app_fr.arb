@@ -1,0 +1,1125 @@
+{
+  "@@locale": "fr",
+  "appTitle": "MiFi",
+  "@appTitle": {
+    "description": "Nom de l'application (barre de titre, écran des tâches récentes)"
+  },
+  "commonCancel": "Annuler",
+  "commonSave": "Enregistrer",
+  "commonRetry": "Réessayer",
+  "commonClose": "Fermer",
+  "commonOk": "OK",
+  "commonContinue": "Continuer",
+  "commonConfirm": "Confirmer",
+  "commonApply": "Appliquer",
+  "commonDelete": "Supprimer",
+  "commonCopy": "Copier",
+  "commonCopied": "Copié dans le presse-papiers",
+  "commonEnabled": "Activé",
+  "commonDisabled": "Désactivé",
+  "commonYes": "Oui",
+  "commonNo": "Non",
+  "commonLoading": "Chargement…",
+  "commonSaved": "Réglages enregistrés",
+  "commonUnknown": "Inconnu",
+  "commonNotDefined": "Non défini",
+  "commonShowPassword": "Afficher le mot de passe",
+  "commonHidePassword": "Masquer le mot de passe",
+  "commonRequiredField": "Champ obligatoire",
+  "commonInvalidIpv4": "Adresse IPv4 invalide (ex. 192.168.100.1)",
+  "commonInvalidHost": "Adresse IP ou nom d'hôte invalide",
+  "commonTypeLabel": "Type",
+  "commonProxyLabel": "Proxy",
+  "commonUpdatedAt": "Mis à jour à {time}",
+  "@commonUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDataStale": "Données non à jour",
+  "commonWarning": "Attention",
+  "commonTypeToConfirm": "Pour confirmer, saisissez « {word} »",
+  "@commonTypeToConfirm": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceCount": "{count, plural, one{{count} appareil} other{{count} appareils}}",
+  "@deviceCount": {
+    "description": "Nombre d'appareils. En français, 0 et 1 sont au singulier (« 0 appareil »).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deviceTypeWifi": "Wi-Fi",
+  "deviceTypeWired": "Filaire",
+  "deviceTypeUnknown": "Inconnu",
+  "unnamedDevice": "Appareil sans nom",
+  "durationSeconds": "{seconds} s",
+  "@durationSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "durationMinutesSeconds": "{minutes} min {seconds} s",
+  "@durationMinutesSeconds": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHoursMinutes": "{hours} h {minutes} min",
+  "@durationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "durationDaysHoursMinutes": "{days} j {hours} h {minutes} min",
+  "@durationDaysHoursMinutes": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "navHome": "Accueil",
+  "navDevices": "Appareils",
+  "navSettings": "Réglages",
+  "splashConnecting": "Connexion au modem…",
+  "errorUnreachable": "Impossible de joindre le modem ({address}). Vérifiez que le téléphone est connecté au Wi-Fi du modem.",
+  "@errorUnreachable": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "errorTimeout": "Le modem ne répond pas (délai dépassé).",
+  "errorLoginFailed": "Mot de passe refusé par le modem.",
+  "errorSessionExpired": "Session expirée. Veuillez vous reconnecter.",
+  "errorCommandFailed": "Le modem a refusé l'opération (réponse : {reply}).",
+  "@errorCommandFailed": {
+    "placeholders": {
+      "reply": {
+        "type": "String"
+      }
+    }
+  },
+  "errorUnsupported": "Fonction non prise en charge par le firmware du modem.",
+  "errorInvalidResponse": "Réponse inattendue du modem.",
+  "errorCancelled": "Opération annulée.",
+  "errorUnexpected": "Erreur inattendue : {details}",
+  "@errorUnexpected": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "hintWifiDisconnected": "Le téléphone n'est connecté à aucun réseau Wi-Fi.",
+  "hintWrongWifi": "Le Wi-Fi actuel (passerelle {gateway}) ne semble pas être celui du modem ({address}).",
+  "@hintWrongWifi": {
+    "placeholders": {
+      "gateway": {
+        "type": "String"
+      },
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "hintNoInternetIsOk": "Android peut signaler le Wi-Fi du modem « sans internet » : l'appli l'utilise quand même.",
+  "restartTitle": "Reconnexion au modem",
+  "restartWaiting": "Patientez pendant que le modem redémarre…",
+  "restartElapsed": "Temps écoulé : {elapsed}",
+  "@restartElapsed": {
+    "placeholders": {
+      "elapsed": {
+        "type": "String"
+      }
+    }
+  },
+  "restartHint": "Si nécessaire, reconnectez le téléphone au Wi-Fi du modem.",
+  "restartSuccess": "Le modem est de nouveau joignable.",
+  "restartTimeout": "Le modem ne répond toujours pas. Vérifiez la connexion Wi-Fi puis réessayez.",
+  "restartStopWaiting": "Arrêter d'attendre",
+  "airplaneTitle": "Mode avion",
+  "airplaneStateOn": "Activé",
+  "airplaneStateOff": "Désactivé",
+  "airplaneStateSwitching": "Bascule en cours…",
+  "airplaneStateUnknown": "État inconnu",
+  "airplaneStateError": "Échec de la bascule",
+  "airplaneExplanation": "Coupe internet sur la SIM active, en quelques secondes et sans changer de SIM. Le Wi-Fi du modem reste actif. L'appli vérifie la coupure et vous prévient si elle ne tient pas.",
+  "notifChannelAlerts": "Alertes de connexion",
+  "notifChannelAlertsDescription": "Coupure et retour d'internet, signal faible",
+  "notifChannelDevices": "Nouveaux appareils",
+  "notifChannelDevicesDescription": "Un appareil inconnu se connecte au Wi-Fi du modem",
+  "notifChannelAirplane": "Données mobiles et programmations",
+  "notifChannelAirplaneDescription": "Résultat des changements des données mobiles et du redémarrage programmé",
+  "notifInternetDownTitle": "Internet coupé",
+  "notifInternetDownBody": "Le modem a perdu la connexion internet.",
+  "notifInternetUpTitle": "Internet rétabli",
+  "notifInternetUpBody": "La connexion est revenue après {duration}.",
+  "@notifInternetUpBody": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "notifLowSignalTitle": "Signal faible",
+  "notifLowSignalBody": "Signal mobile faible : {dbm} dBm.",
+  "@notifLowSignalBody": {
+    "placeholders": {
+      "dbm": {
+        "type": "int"
+      }
+    }
+  },
+  "notifNewDeviceTitle": "Nouvel appareil connecté",
+  "notifNewDeviceBody": "{name} ({mac}) vient de se connecter.",
+  "@notifNewDeviceBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "mac": {
+        "type": "String"
+      }
+    }
+  },
+  "notifScheduleFailedTitle": "Mode avion programmé : échec",
+  "notifScheduleFailedBody": "Impossible de joindre le modem. Le téléphone doit être connecté au Wi-Fi du modem à l'heure prévue.",
+  "notifAirplaneFailedTitle": "Mode avion : échec",
+  "notifAirplaneFailedBody": "Impossible de joindre le modem. Vérifiez la connexion Wi-Fi du téléphone.",
+  "notifToggleRefusedBody": "Le modem a refusé le changement. Réessayez depuis l'appli.",
+  "notifToggleLoginFailedBody": "Connexion au modem refusée : mot de passe incorrect ou absent. Reconnectez-vous dans l'appli.",
+  "operatorUnknown": "Opérateur inconnu",
+  "operatorCode": "Opérateur {code}",
+  "@operatorCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "noSim": "Pas de SIM",
+  "mobileDataTitle": "Données mobiles",
+  "mobileDataStateOn": "Activées",
+  "mobileDataStateOff": "Désactivées",
+  "mobileDataAirplaneOn": "Coupées par le mode avion",
+  "mobileDataSwitching": "Changement en cours…",
+  "mobileDataSwitchFailed": "Le modem n'a pas appliqué le changement des données mobiles.",
+  "dataCutFailed": "Le modem n'a pas appliqué le changement. Réessayez.",
+  "dataCutNotHoldingTitle": "La coupure d'internet ne tient pas",
+  "dataCutNotHoldingShort": "Coupure inefficace",
+  "dataCutProfileLost": "Le modem remet sans cesse son profil APN habituel, donc internet revient. L'appli a réactivé la coupure plusieurs fois puis a arrêté. Désactivez puis réactivez pour réessayer.",
+  "dataCutInternetStillUp": "Le profil de coupure est actif mais internet passe encore : votre opérateur semble accepter n'importe quel APN. Avec cette SIM, l'appli ne peut pas couper internet de cette façon.",
+  "mobileDataExplanation": "Coupe internet en gardant la SIM sur le réseau (le signal reste visible). Le Wi-Fi reste actif.",
+  "simChangedTitle": "Nouvelle SIM détectée",
+  "simChangedBody": "Nouvelle SIM détectée : {operator}. Si internet ne fonctionne pas, vérifiez les réglages APN.",
+  "@simChangedBody": {
+    "placeholders": {
+      "operator": {
+        "type": "String"
+      }
+    }
+  },
+  "simChangedOpenApn": "Réglages APN",
+  "simChangedLater": "Plus tard",
+  "expelTitle": "Expulser les intrus",
+  "lockTitle": "MiFi est verrouillée",
+  "lockReason": "Déverrouillez pour accéder aux réglages du modem",
+  "lockFailed": "Déverrouillage non abouti. Réessayez.",
+  "lockUnlock": "Déverrouiller",
+  "widgetInternetOn": "Internet connecté",
+  "widgetInternetOff": "Internet coupé",
+  "notifAutoRepairTitle": "Réparation automatique",
+  "notifAutoRepairStarted": "Internet est coupé malgré un bon signal : relance de la connexion en cours…",
+  "notifAutoRepairSucceeded": "Internet a été rétabli automatiquement.",
+  "notifAutoRepairFailed": "La relance automatique n'a pas rétabli internet. Essayez de redémarrer le modem.",
+  "notifRebootFailedTitle": "Redémarrage programmé : échec",
+  "notifRebootFailedBody": "Impossible de joindre le modem à l'heure prévue. Le téléphone doit être connecté au Wi-Fi du modem.",
+  "notifMobileDataFailedTitle": "Données mobiles : échec",
+  "signalDbm": "{dbm} dBm",
+  "@signalDbm": {
+    "placeholders": {
+      "dbm": {
+        "type": "int"
+      }
+    }
+  },
+  "signalQualityNone": "Inexistant",
+  "signalQualityPoor": "Faible",
+  "signalQualityFair": "Moyen",
+  "signalQualityGood": "Bon",
+  "signalQualityExcellent": "Excellent",
+  "wifiAuthNone": "Aucune (réseau ouvert)",
+  "wifiAuthWpaPsk": "WPA-PSK",
+  "wifiAuthWpa2Psk": "WPA2-PSK",
+  "networkModeAuto": "4G/3G (automatique)",
+  "networkMode4gOnly": "4G uniquement",
+  "networkMode3gOnly": "3G uniquement",
+  "apnAuthNone": "Aucune",
+  "apnAuthPap": "PAP",
+  "apnAuthChap": "CHAP",
+  "apnAuthPapChap": "PAP/CHAP",
+  "pdpTypeIpv4": "IPv4",
+  "pdpTypeIpv6": "IPv6",
+  "pdpTypeIpv4v6": "IPv4/IPv6",
+  "simSlot": "SIM {number}",
+  "@simSlot": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "languageSystem": "Langue du téléphone",
+  "languageFrench": "Français",
+  "languageEnglish": "English",
+  "hubSectionModem": "Modem",
+  "hubSectionTools": "Outils",
+  "hubSectionApp": "Application",
+  "hubWifiTitle": "Wi-Fi",
+  "hubWifiSubtitle": "Nom du réseau, mot de passe, canal, partage par QR code",
+  "hubMobileTitle": "Réseau mobile",
+  "hubMobileSubtitle": "SIM, APN, mode réseau, partage USB, détection de coupure",
+  "hubDhcpTitle": "Réseau local (DHCP)",
+  "hubDhcpSubtitle": "Adresse du modem et plage d'adresses",
+  "hubSystemTitle": "Système",
+  "hubSystemSubtitle": "Mot de passe, redémarrage, réinitialisation, informations",
+  "hubSignalTitle": "Historique du signal",
+  "hubSignalSubtitle": "Graphique et recherche du meilleur emplacement",
+  "hubOutagesTitle": "Journal des coupures",
+  "hubOutagesSubtitle": "Historique des pertes de connexion internet",
+  "hubSpeedTestTitle": "Test de débit",
+  "hubSpeedTestSubtitle": "Mesurer la vitesse de téléchargement",
+  "hubBackupTitle": "Sauvegarde et restauration",
+  "hubBackupSubtitle": "Exporter puis réappliquer les réglages du modem",
+  "hubFirmwareTitle": "Mise à jour du firmware",
+  "hubFirmwareSubtitle": "Avancé : à utiliser avec précaution",
+  "hubAppSettingsTitle": "Réglages de l'application",
+  "hubAppSettingsSubtitle": "Langue, thème, notifications, adresse du modem",
+  "appSettingsLanguage": "Langue",
+  "appSettingsApplyToModem": "Appliquer aussi à l'interface web du modem",
+  "appSettingsApplyToModemHint": "Change aussi la langue de la page web d'origine du modem (langues acceptées : en, fr, pl, ru, tk, zh).",
+  "appSettingsSendNow": "Envoyer la langue au modem maintenant",
+  "appSettingsLanguageSent": "Langue envoyée au modem.",
+  "appSettingsLanguageNotSent": "Le modem n'a pas accepté le changement de langue.",
+  "appSettingsTheme": "Thème",
+  "appSettingsThemeAuto": "Automatique",
+  "appSettingsThemeLight": "Clair",
+  "appSettingsThemeDark": "Sombre",
+  "appSettingsNotifications": "Notifications",
+  "appSettingsNotificationsBlocked": "Les notifications de MiFi sont bloquées par Android.",
+  "appSettingsAllow": "Autoriser",
+  "appSettingsNotificationsAll": "Activer les notifications",
+  "appSettingsNotifyDown": "Internet coupé",
+  "appSettingsNotifyUp": "Internet rétabli",
+  "appSettingsNotifyLowSignal": "Signal faible",
+  "appSettingsNotifyNewDevice": "Nouvel appareil connecté",
+  "appSettingsBackground": "Vérification en arrière-plan",
+  "appSettingsBackgroundHint": "Vérification de secours environ toutes les 15 minutes (limite d'Android), quand le téléphone est connecté au Wi-Fi du modem ; elle relance aussi la surveillance continue si Android l'a arrêtée.",
+  "appSettingsMonitor": "Surveillance continue",
+  "appSettingsMonitorHint": "Vous prévient dès qu'internet ne passe plus, même appli fermée (notification discrète « Surveillance active »). Relevés espacés quand tout va bien, pour économiser la batterie.",
+  "appSettingsMonitorRestricted": "Android limite encore l'appli en arrière-plan : la surveillance peut être interrompue. Autorisez-la à fonctionner sans restriction.",
+  "monitorPermissionTitle": "Surveillance de la connexion",
+  "monitorPermissionMessage": "Pour vous prévenir dès qu'internet ne passe plus, même appli fermée, MiFi doit pouvoir fonctionner en arrière-plan. Android va vous demander deux autorisations (notifications et arrière-plan) : acceptez-les. La surveillance consomme très peu de batterie et s'affiche par une notification discrète « Surveillance active ».",
+  "monitorPermissionAllow": "Autoriser",
+  "appSettingsAutomation": "Automatismes",
+  "appSettingsAutoRepair": "Réparation automatique",
+  "appSettingsAutoRepairHint": "Si internet est coupé depuis 3 minutes alors que le signal est bon, l'appli relance la connexion (au plus une fois toutes les 30 minutes).",
+  "appSettingsSchedule": "Mode avion programmé",
+  "appSettingsScheduleHint": "Coupe le réseau mobile chaque jour pendant la plage choisie.",
+  "appSettingsFrom": "De",
+  "appSettingsTo": "À",
+  "appSettingsScheduleSame": "Le début et la fin doivent être différents.",
+  "appSettingsScheduleNext": "Prochaine coupure : {start} · fin : {end}",
+  "@appSettingsScheduleNext": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsReboot": "Redémarrage programmé du modem",
+  "appSettingsRebootHint": "Redémarre le modem chaque jour à l'heure choisie.",
+  "appSettingsRebootTime": "Heure du redémarrage",
+  "appSettingsRebootNext": "Prochain redémarrage : {time}",
+  "@appSettingsRebootNext": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsAutomationNote": "Au moment prévu, le téléphone doit être connecté au Wi-Fi du modem ; sinon une notification d'échec s'affiche. Android peut décaler l'heure de quelques minutes.",
+  "appSettingsReliabilityHint": "Pour que les programmations et la surveillance fonctionnent appli fermée sur un téléphone Xiaomi, autorisez le démarrage automatique et choisissez « Aucune restriction » dans l'économie de batterie de l'appli.",
+  "appSettingsExactAlarmsMissing": "Les alarmes exactes ne sont pas autorisées : Android peut décaler les programmations de plusieurs minutes, voire davantage.",
+  "appSettingsExactAlarmsAllow": "Autoriser",
+  "appSettingsAutostart": "Démarrage automatique",
+  "appSettingsBattery": "Économie de batterie",
+  "appSettingsSecurity": "Sécurité",
+  "appSettingsLock": "Verrouiller l'appli",
+  "appSettingsLockHint": "Demande l'empreinte digitale ou le code du téléphone à l'ouverture de MiFi.",
+  "appSettingsLockUnsupported": "Aucune empreinte ni aucun code n'est configuré sur ce téléphone.",
+  "appSettingsAddressConfirmTitle": "Changer l'adresse du modem ?",
+  "appSettingsAddressConfirm": "L'appli contactera désormais le modem à l'adresse {address}.",
+  "@appSettingsAddressConfirm": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsAbout": "À propos",
+  "appSettingsAboutText": "MiFi pilote votre modem 4G HiMILink depuis le téléphone, avec n'importe quelle SIM. L'appli ne fonctionne que connectée au Wi-Fi du modem.",
+  "backupExportSection": "Sauvegarder",
+  "backupExportHint": "Enregistre dans un fichier les réglages Wi-Fi, APN, DHCP, mode réseau et détection de coupure.",
+  "backupPrivacy": "Le mot de passe administrateur n'est jamais exporté. Le fichier contient en revanche le mot de passe Wi-Fi : gardez-le en lieu sûr.",
+  "backupExport": "Exporter les réglages",
+  "backupExported": "Sauvegarde enregistrée.",
+  "backupExportCancelled": "Export annulé.",
+  "backupImportSection": "Restaurer",
+  "backupImportHint": "Réappliquez une sauvegarde, par exemple après une réinitialisation d'usine.",
+  "backupChooseFile": "Choisir un fichier de sauvegarde",
+  "backupFileLabel": "Sauvegarde MiFi (.json)",
+  "backupInvalidFile": "Ce fichier n'est pas une sauvegarde MiFi valide.",
+  "backupFileDate": "Sauvegarde du {date}",
+  "@backupFileDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupOrderNote": "Ordre d'application : mode réseau, détection, APN, puis DHCP (le modem redémarre) et enfin le Wi-Fi (le téléphone devra s'y reconnecter).",
+  "backupRestore": "Restaurer la sélection",
+  "backupRestoreTitle": "Restaurer ces réglages ?",
+  "backupRestoreWarning": "Les réglages choisis vont remplacer ceux du modem. Le DHCP redémarre le modem, et le changement de Wi-Fi déconnecte tous les appareils.",
+  "backupRestored": "Réglages restaurés.",
+  "backupWifiAppliedTitle": "Wi-Fi restauré",
+  "backupWifiApplied": "Le Wi-Fi « {ssid} » a été appliqué : reconnectez le téléphone à ce réseau.",
+  "@backupWifiApplied": {
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      }
+    }
+  },
+  "compareHubSubtitle": "Signal, débit et coupures selon la SIM utilisée",
+  "compareIntro": "Mesures des 7 derniers jours, classées par signal moyen. Elles sont attribuées à l'opérateur de la SIM utilisée à ce moment-là.",
+  "compareEmpty": "Pas encore assez de mesures. Utilisez l'appli quelques jours avec vos différentes SIM, et lancez des tests de débit.",
+  "compareSignal": "Signal moyen",
+  "compareSpeed": "Débit moyen",
+  "compareOutages": "Coupures",
+  "compareBestSpeed": "Meilleur débit : {value}",
+  "@compareBestSpeed": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "compareLastUsed": "Dernière utilisation : {time}",
+  "@compareLastUsed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardWifiOn": "Wi-Fi allumé",
+  "dashboardWifiOff": "Wi-Fi éteint",
+  "dashboardSimOk": "SIM présente",
+  "dashboardLanguage": "Langue",
+  "dashboardAdmin": "Administrateur",
+  "dashboardChangePassword": "Changer le mot de passe",
+  "dashboardLogout": "Se déconnecter",
+  "dashboardLogoutConfirm": "Vous serez déconnecté du modem et le mot de passe enregistré sera oublié.",
+  "dashboardWanIp": "IP WAN {ip}",
+  "@dashboardWanIp": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardSignalHistory": "Historique",
+  "dashboardBestLocation": "Meilleur emplacement",
+  "dashboardUsbTitle": "Partage USB",
+  "dashboardTurnOn": "Activer",
+  "dashboardTurnOff": "Couper",
+  "dashboardAirplaneConfirmTitle": "Activer le mode avion ?",
+  "airplaneDisableConfirmTitle": "Désactiver le mode avion ?",
+  "airplaneDisableConfirmMessage": "Internet sera rétabli avec votre profil APN habituel.",
+  "airplaneDisableConfirmAction": "Désactiver",
+  "dashboardMobileDataConfirmTitle": "Couper les données mobiles ?",
+  "dashboardMobileDataHow": "L'appli active pour cela un profil APN de coupure (« MiFi-OFF ») ; réactiver les données remet votre profil habituel. Fonction à confirmer sur votre modem.",
+  "dashboardAirplaneWaiting": "Activation du mode avion… Le Wi-Fi reste actif.",
+  "dashboardAirplaneWaitingOff": "Désactivation du mode avion…",
+  "dashboardMobileDataWaiting": "Changement des données mobiles en cours…",
+  "dashboardTogglesInfo": "Comment ça marche ?",
+  "dashboardTogglesInfoTitle": "Données mobiles et mode avion",
+  "dashboardReconnectTitle": "Relancer la connexion",
+  "dashboardReconnectHint": "Internet ne passe plus ? Relancez la connexion : plus rapide qu'un redémarrage du modem.",
+  "dashboardInternetUnknown": "État d'internet inconnu",
+  "dashboardInternetLostTitle": "Internet ne passe plus",
+  "dashboardInternetLostMessage": "Le modem n'a plus accès à internet. Relancez la connexion pour le rétablir.",
+  "dashboardReconnectAction": "Relancer la connexion",
+  "dashboardReconnectConfirm": "L'appli coupe la connexion du modem, comme un mode avion (il se réinscrit sur le réseau), puis la rétablit. Elle recommence jusqu'au retour d'internet ou jusqu'à ce que vous touchiez « Arrêter ». Le Wi-Fi reste actif.",
+  "dashboardReconnectStepCut": "Coupure de la connexion",
+  "dashboardReconnectStepRestore": "Rétablissement de la connexion",
+  "dashboardReconnectStepReregister": "Réinscription du modem sur le réseau",
+  "dashboardReconnectAttempt": "Tentative {attempt}",
+  "@dashboardReconnectAttempt": {"placeholders": {"attempt": {"type": "int"}}},
+  "dashboardReconnectElapsed": "Temps écoulé : {time}",
+  "@dashboardReconnectElapsed": {"placeholders": {"time": {"type": "String"}}},
+  "dashboardReconnectStop": "Arrêter",
+  "dashboardReconnectStopping": "Arrêt après cette tentative…",
+  "dashboardReconnectStopped": "Relance arrêtée.",
+  "dashboardReconnectSuccessAfter": "Connexion relancée : internet est revenu à la tentative {attempt}.",
+  "@dashboardReconnectSuccessAfter": {"placeholders": {"attempt": {"type": "int"}}},
+  "dashboardReconnectStepInternet": "Attente du retour d'internet",
+  "dashboardReconnectSuccess": "Connexion relancée : internet est revenu.",
+  "dashboardReconnectNoInternet": "Le réseau est revenu mais internet ne répond pas encore. Réessayez ou redémarrez le modem.",
+  "dashboardRebootTitle": "Redémarrer le modem ?",
+  "dashboardRebootConfirm": "Le modem va redémarrer (environ 1 minute). Tous les appareils seront déconnectés pendant ce temps.",
+  "dashboardRebootAction": "Redémarrer le modem",
+  "dashboardSeeAll": "Voir",
+  "dashboardDevicesSplit": "Wi-Fi : {wifi} · Filaire : {wired}",
+  "@dashboardDevicesSplit": {
+    "placeholders": {
+      "wifi": {
+        "type": "int"
+      },
+      "wired": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardModemSection": "Modem",
+  "dashboardUptime": "Durée de fonctionnement",
+  "dashboardCpuTemp": "Température du processeur",
+  "dashboardTemperature": "{value} °C",
+  "@dashboardTemperature": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardSystemTime": "Heure du modem",
+  "dashboardBsid": "Station de base (BS ID)",
+  "dashboardCellId": "Cellule (Cell ID)",
+  "dashboardSoftwareVersion": "Version logicielle",
+  "dashboardHardwareVersion": "Version matérielle",
+  "dashboardWebVersion": "Version de l'interface web",
+  "dashboardImei": "IMEI",
+  "dashboardIccid": "ICCID",
+  "dashboardImsi": "IMSI",
+  "dashboardSsid": "Nom du Wi-Fi",
+  "dashboardShortcuts": "Raccourcis",
+  "dashboardCompareOperators": "Comparatif des opérateurs",
+  "devicesConnected": "Connectés maintenant",
+  "devicesNoneConnected": "0 appareil connecté pour le moment.",
+  "devicesSeenBefore": "Déjà vus (déconnectés)",
+  "devicesNewBadge": "Nouveau",
+  "devicesRename": "Donner un surnom",
+  "devicesRenameTitle": "Surnom de l'appareil",
+  "devicesNickname": "Surnom",
+  "devicesNicknameHint": "Mémorisé dans l'appli ; laissez vide pour l'effacer",
+  "devicesIp": "Adresse IP",
+  "devicesMac": "Adresse MAC",
+  "devicesAnnouncedName": "Nom annoncé par l'appareil",
+  "devicesFirstSeen": "Vu la première fois",
+  "devicesLastSeen": "Vu la dernière fois",
+  "devicesLastSeenShort": "vu {time}",
+  "@devicesLastSeenShort": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "devicesNoBlockingNote": "Le modem ne permet pas de bloquer un appareil : utilisez « Expulser les intrus » pour changer le mot de passe Wi-Fi.",
+  "dhcpWarning": "Enregistrer ces réglages redémarre le modem (environ 1 minute) et son adresse peut changer. Tous les appareils seront déconnectés pendant ce temps.",
+  "dhcpModemSection": "Adresse du modem",
+  "dhcpGateway": "Adresse IP du modem (passerelle)",
+  "dhcpNetmask": "Masque de sous-réseau",
+  "dhcpServerSection": "Serveur DHCP",
+  "dhcpServer": "Serveur DHCP",
+  "dhcpReadOnly": "Non modifiable (comme dans l'interface d'origine)",
+  "dhcpPoolStart": "Début de plage",
+  "dhcpPoolEnd": "Fin de plage",
+  "dhcpLease": "Durée du bail",
+  "dhcpHours": "heures",
+  "dhcpSummary": "Réseau {network}/{prefix} · {count} adresses attribuables",
+  "@dhcpSummary": {
+    "placeholders": {
+      "network": {
+        "type": "String"
+      },
+      "prefix": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dhcpErrorNetmask": "Masque invalide (ex. 255.255.255.0)",
+  "dhcpErrorReserved": "Adresse réservée (réseau ou diffusion)",
+  "dhcpErrorSubnet": "Hors du sous-réseau du modem",
+  "dhcpErrorOrder": "La fin doit être après le début",
+  "dhcpErrorGatewayInPool": "L'adresse du modem ne doit pas être dans la plage",
+  "dhcpErrorLease": "Nombre d'heures entre 1 et {max}",
+  "@dhcpErrorLease": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "dhcpSaveTitle": "Enregistrer et redémarrer ?",
+  "dhcpSaveWarning": "Le modem va redémarrer (environ 1 minute). Le téléphone devra peut-être se reconnecter au Wi-Fi.",
+  "dhcpNewAddress": "L'adresse du modem devient {address} : l'appli l'utilisera automatiquement.",
+  "@dhcpNewAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "dhcpNotBack": "Le modem ne répond pas encore. Vérifiez le Wi-Fi du téléphone ; l'adresse du modem peut aussi se modifier dans Réglages › Réglages de l'application.",
+  "expelIntro": "Le modem ne sait pas bloquer un appareil précis. Pour se débarrasser d'un intrus, l'appli change le mot de passe Wi-Fi : seuls ceux qui connaissent le nouveau pourront se reconnecter.",
+  "expelWarning": "Tous les appareils, y compris ce téléphone, seront déconnectés. Reconnectez-vous avec le nouveau mot de passe.",
+  "expelHideSsid": "Masquer aussi le nom du Wi-Fi",
+  "expelHideSsidHint": "Le réseau devient invisible pour les voisins ; il faudra saisir son nom pour s'y connecter.",
+  "expelApply": "Générer un nouveau mot de passe et l'appliquer",
+  "expelDone": "Nouveau mot de passe appliqué. Scannez ce code avec vos appareils pour les reconnecter.",
+  "expelNetwork": "Réseau Wi-Fi",
+  "expelNewPassword": "Nouveau mot de passe",
+  "expelHiddenNote": "Le nom du réseau est masqué : il n'apparaît plus dans la liste des Wi-Fi.",
+  "expelReconnectPhone": "Reconnecter ce téléphone",
+  "expelWaiting": "En attente de la reconnexion du téléphone au Wi-Fi…",
+  "expelReconnected": "Téléphone reconnecté : la session a repris.",
+  "expelNotReconnected": "Le téléphone n'est pas encore reconnecté au Wi-Fi du modem.",
+  "firmwareDangerTitle": "Réservé aux utilisateurs avertis",
+  "firmwareDanger": "Un mauvais fichier ou une coupure pendant la mise à jour peut rendre le modem inutilisable. N'utilisez que le firmware officiel prévu pour ce modem.",
+  "firmwareChecklist": "Avant de commencer",
+  "firmwareCheckBattery": "La batterie du modem est chargée",
+  "firmwareCheckPlugged": "Le modem restera branché et je ne l'éteindrai pas",
+  "firmwareCheckRisks": "Je comprends les risques",
+  "firmwareFileSection": "Fichier du firmware",
+  "firmwareFileLabel": "Firmware (.zip)",
+  "firmwareChoose": "Choisir le fichier .zip",
+  "firmwareChooseAnother": "Choisir un autre fichier",
+  "firmwareNotZip": "Le fichier doit être une archive .zip.",
+  "firmwareTooBig": "Fichier vide ou trop volumineux (500 Mo au maximum).",
+  "firmwareSize": "{size} Mo",
+  "@firmwareSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "firmwareCrcLabel": "Code CRC",
+  "firmwareCrcHelper": "Code de contrôle fourni avec le firmware. À défaut, l'appli peut le calculer (format attendu par le modem à confirmer).",
+  "firmwareComputeMd5": "Calculer le MD5",
+  "firmwareComputeCrc32": "Calculer le CRC32",
+  "firmwareStart": "Lancer la mise à jour",
+  "firmwareConfirmTitle": "Mettre à jour le firmware ?",
+  "firmwareConfirmMessage": "Le fichier « {file} » va être envoyé au modem. Ne quittez pas l'appli et n'éteignez pas le modem pendant toute l'opération.",
+  "@firmwareConfirmMessage": {
+    "placeholders": {
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "firmwareConfirmWord": "METTRE À JOUR",
+  "firmwarePreparing": "Préparation de la mise à jour…",
+  "firmwareUploading": "Envoi du fichier : {sent} Mo sur {total} Mo",
+  "@firmwareUploading": {
+    "placeholders": {
+      "sent": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "firmwareVerifying": "Vérification du fichier par le modem…",
+  "firmwareDoNotLeave": "Ne quittez pas cet écran et n'éteignez pas le modem.",
+  "firmwareCancel": "Annuler l'envoi",
+  "firmwareCancelTitle": "Annuler l'envoi ?",
+  "firmwareCancelMessage": "L'envoi du firmware sera interrompu ; le modem gardera sa version actuelle.",
+  "firmwareRefused": "Le modem a refusé la mise à jour",
+  "firmwareNoAnswer": "Le modem n'a pas confirmé la vérification du fichier.",
+  "firmwareInProgressTitle": "Mise à jour en cours",
+  "firmwareInProgress": "Le modem installe le nouveau firmware puis redémarrera. Cela peut prendre plusieurs minutes : ne l'éteignez surtout pas.",
+  "firmwareWaitingRestart": "Installation du firmware et redémarrage du modem (plusieurs minutes)…",
+  "helpTitle": "Guide d'utilisation",
+  "helpHubSubtitle": "Comment utiliser chaque fonction, et que faire en cas de problème",
+  "helpIntro": "MiFi remplace l'interface web du modem. Touchez une rubrique pour savoir comment utiliser chaque fonction.",
+  "helpStartTitle": "Premiers pas",
+  "helpStartBody": "1. Connectez le téléphone au Wi-Fi du modem (nom et mot de passe sur l'étiquette du modem).\n2. Ouvrez MiFi et saisissez le mot de passe administrateur du modem (indiqué sur l'étiquette s'il n'a jamais été changé).\n3. Laissez « Mémoriser le mot de passe » coché : la connexion sera automatique aux lancements suivants. Le mot de passe est enregistré chiffré sur le téléphone.\n\nSi Android signale « Pas d'accès à internet » pour ce Wi-Fi (par exemple quand les données sont coupées), c'est normal : l'appli l'utilise quand même pour parler au modem.",
+  "helpAddressTitle": "Adresse du modem",
+  "helpAddressBody": "Par défaut, le modem répond à l'adresse 192.168.100.1.\n\nSi vous la changez dans « Réseau local (DHCP) », l'appli suit automatiquement la nouvelle adresse. Vous pouvez aussi la modifier à la main sur l'écran de connexion (rubrique « Adresse du modem ») ou dans Réglages › Réglages de l'application. L'appli propose l'adresse de la passerelle du Wi-Fi actuel quand elle est différente.",
+  "helpDashboardTitle": "Tableau de bord",
+  "helpDashboardBody": "En haut, comme sur l'interface d'origine : icônes Wi-Fi, SIM, signal et internet, nom de l'opérateur, choix de la langue et menu administrateur (mot de passe, guide, déconnexion).\n\nEn dessous : le signal (barres, dBm, qualité), l'état d'internet et l'IP WAN, des boutons rapides façon téléphone (Données mobiles, Wi-Fi, Partage USB), « Relancer la connexion », les appareils connectés, les informations et versions du modem, et des raccourcis.\n\nLes données se mettent à jour en continu (toutes les 2 secondes) ; tirez l'écran vers le bas pour tout recharger. Les valeurs que le modem ne fournit pas sont masquées au lieu d'afficher 0.",
+  "helpOperatorTitle": "Opérateur et changement de SIM",
+  "helpOperatorBody": "L'appli fonctionne avec la SIM de n'importe quel opérateur. Elle affiche le nom de service fourni par la SIM ; sinon, elle déduit l'opérateur du code de la SIM (MTN, Orange, Nexttel, Camtel), ou affiche « Opérateur 624-XX ».\n\nQuand vous changez de SIM, l'appli affiche « Nouvelle SIM détectée » et propose d'ouvrir les réglages APN. En général, le modem choisit seul le bon APN.",
+  "helpMobileDataTitle": "Données mobiles",
+  "helpMobileDataBody": "Comme sur un téléphone, l'interrupteur « Données mobiles » coupe internet tout en gardant la SIM connectée au réseau (le signal reste visible). Le Wi-Fi reste actif.\n\nLe modem n'ayant pas de commande dédiée, l'appli active pour cela un profil APN de coupure (« MiFi-OFF ») ; réactiver les données remet votre profil habituel. Une tuile « Données mobiles » est aussi disponible dans les Réglages rapides d'Android.",
+  "helpAirplaneTitle": "Mode avion",
+  "helpAirplaneBody": "Comme sur un téléphone, le mode avion coupe internet sur la SIM utilisée (SIM 1 ou SIM 2), sans jamais changer de SIM. Après confirmation, il s'active en quelques secondes. Le Wi-Fi du modem reste allumé : vos appareils restent connectés au modem (sans internet) et l'appli peut toujours désactiver le mode avion.\n\nLe modem n'a pas de commande pour éteindre sa radio : l'appli coupe internet en activant un profil APN de coupure (« MiFi-OFF »). La SIM reste donc accrochée au réseau et la barre de signal reste visible. Si vous changez de SIM pendant le mode avion, la coupure s'applique aussi à la nouvelle SIM.\n\nL'appli vérifie que la connexion tombe. Si le modem remet de lui-même son profil APN habituel, elle réactive la coupure : à chaque relevé quand l'appli est ouverte, sinon lors des vérifications en arrière-plan (toutes les 15 minutes au mieux, si elles sont activées). Si la coupure ne tient pas, par exemple quand l'opérateur accepte n'importe quel APN, un avertissement s'affiche.\n\nPendant le mode avion, l'interrupteur « Données mobiles » est grisé. Désactiver le mode avion remet votre profil APN habituel.",
+  "helpReconnectTitle": "Relancer la connexion et réparation automatique",
+  "helpReconnectBody": "Quand internet ne passe plus, touchez « Relancer la connexion » sur le tableau de bord : l'appli coupe la connexion du modem, comme un mode avion (il se réinscrit sur le réseau), puis la rétablit. Elle recommence jusqu'au retour d'internet ou jusqu'à ce que vous touchiez « Arrêter » ; le numéro de la tentative et le temps écoulé sont affichés. C'est bien plus rapide qu'un redémarrage du modem, qui reste proposé.\n\nAvec la réparation automatique (Réglages › Réglages de l'application), l'appli le fait seule si internet est coupé depuis 3 minutes avec un bon signal (3 tentatives au plus, une fois toutes les 30 minutes au plus).",
+  "helpTileTitle": "Tuiles « Réglages rapides » et raccourcis",
+  "helpTileBody": "Pour activer ou désactiver les données mobiles sans ouvrir l'appli :\n1. Faites glisser deux fois vers le bas depuis le haut de l'écran.\n2. Touchez le crayon (Modifier).\n3. Faites glisser la tuile « Données mobiles » de MiFi parmi vos tuiles.\n\nUn appui lance le changement. Le téléphone doit être connecté au Wi-Fi du modem et le mot de passe mémorisé ; en cas d'échec, une notification vous prévient.\n\nUn appui long sur l'icône MiFi propose aussi des raccourcis : Partager le Wi-Fi, Test de débit.",
+  "helpWidgetTitle": "Widgets d'écran d'accueil",
+  "helpWidgetBody": "Appuyez longuement sur un espace vide de l'écran d'accueil, choisissez « Widgets », puis MiFi : le widget « État du modem » affiche l'opérateur, le signal, internet et le nombre d'appareils ; un appui ouvre l'appli. Il se met à jour quand l'appli est ouverte et à chaque vérification en arrière-plan.",
+  "helpScheduleTitle": "Redémarrage programmé",
+  "helpScheduleBody": "Dans Réglages › Réglages de l'application › Automatismes, le redémarrage programmé redémarre le modem chaque jour à l'heure choisie.\n\nÀ l'heure prévue, le téléphone doit être connecté au Wi-Fi du modem ; sinon, une notification d'échec s'affiche. Android peut décaler l'heure de quelques minutes.",
+  "helpDevicesTitle": "Appareils connectés",
+  "helpDevicesBody": "L'onglet Appareils liste les appareils connectés : nom, type (Wi-Fi ou filaire), adresse IP et adresse MAC. Touchez un appareil pour lui donner un surnom, mémorisé d'après son adresse MAC.\n\nUn badge « Nouveau » signale un appareil vu pour la première fois récemment, et une alerte prévient quand un appareil inconnu se connecte, avec un accès direct à « Expulser les intrus ». Les appareils déjà vus mais déconnectés sont listés à part.",
+  "helpExpelTitle": "Expulser les intrus",
+  "helpExpelBody": "Le modem ne sait pas bloquer un appareil. « Expulser les intrus » génère un nouveau mot de passe Wi-Fi solide (12 caractères), l'applique et affiche aussitôt son QR code. Vous pouvez aussi masquer le nom du Wi-Fi pour le rendre invisible aux voisins.\n\nTous les appareils, y compris ce téléphone, sont déconnectés : reconnectez-les avec le nouveau mot de passe (bouton « Reconnecter ce téléphone », QR code ou partage par message). L'appli reprend sa session dès que le téléphone est reconnecté.",
+  "helpWifiTitle": "Wi-Fi et partage",
+  "helpWifiBody": "Réglages › Wi-Fi permet de changer le nom du réseau, le mot de passe (8 à 32 caractères), la sécurité, le canal et la diffusion du nom. Après l'enregistrement, le Wi-Fi redémarre : reconnectez le téléphone au réseau.\n\nPour partager le Wi-Fi : QR code à scanner avec l'appareil photo, ou envoi du nom et du mot de passe par message (WhatsApp, SMS…).\n\nAttention : « Couper le Wi-Fi » déconnecte immédiatement le téléphone et l'appli ne pourra pas le rallumer. Il faudra le bouton du modem ou un redémarrage.",
+  "helpDhcpTitle": "Réseau local (DHCP)",
+  "helpDhcpBody": "Cette page règle l'adresse du modem, le masque, la plage d'adresses attribuées aux appareils et la durée du bail (en heures). L'appli vérifie que la plage est dans le même sous-réseau que le modem.\n\nL'enregistrement redémarre le modem (environ 1 minute). Si l'adresse du modem change, l'appli utilise automatiquement la nouvelle. L'état du serveur DHCP est affiché en lecture seule.",
+  "helpMobileTitle": "Réseau mobile",
+  "helpMobileBody": "• Carte SIM : emplacement utilisé (SIM 1 ou SIM 2) ; la bascule prend environ 20 secondes.\n• Données mobiles : même interrupteur que sur le tableau de bord.\n• APN : choisissez le profil utilisé pour internet ou créez-en un avec les paramètres de votre opérateur (MCC et MNC sont pré-remplis d'après la SIM).\n• Mode réseau : 4G/3G automatique, 4G uniquement ou 3G uniquement.\n• Partage de connexion USB : internet par câble USB vers un ordinateur.\n• Détection de coupure : le modem vérifie la connexion en contactant ces adresses (IP ou nom, par exemple 8.8.8.8 ou www.google.com).",
+  "helpSystemTitle": "Système",
+  "helpSystemBody": "• Changer le mot de passe administrateur : l'appli se reconnecte toute seule avec le nouveau.\n• Redémarrer le modem : environ 1 minute ; l'appli attend son retour.\n• Réinitialisation d'usine : deux confirmations sont demandées. Le Wi-Fi et le mot de passe reviennent aux valeurs de l'étiquette du modem : reconnectez le téléphone au Wi-Fi d'usine puis reconnectez-vous. Faites une sauvegarde avant.\n• Informations de fabrication : calibrage et test Wi-Fi d'usine (lecture seule).",
+  "helpFirmwareTitle": "Mise à jour du firmware",
+  "helpFirmwareBody": "Réservée aux utilisateurs avertis : un mauvais fichier peut rendre le modem inutilisable.\n\nAvant de commencer : batterie chargée, modem branché et immobile, téléphone près du modem. Choisissez le fichier .zip officiel (500 Mo maximum) et saisissez le code CRC fourni avec lui. Pendant l'envoi, ne quittez pas l'appli et n'éteignez pas le modem. À la fin, le modem se met à jour puis redémarre.",
+  "helpSignalTitle": "Historique du signal et meilleur emplacement",
+  "helpSignalBody": "Réglages › Historique du signal affiche la puissance du signal (en dBm) sur la dernière heure ou les dernières 24 heures. Plus la valeur est proche de 0, meilleur est le signal : excellent (4 barres) à partir de -80 dBm, bon (3) à partir de -90, moyen (2) à partir de -100, faible (1) à partir de -110, inexistant en dessous ; les barres sont vertes, orange ou rouges selon le niveau. Le relevé est mis à jour en continu (toutes les 2 secondes).\n\n« Trouver le meilleur emplacement » affiche une grande jauge mise à jour toutes les 2 à 3 secondes. Déplacez lentement le modem (près d'une fenêtre, en hauteur) et attendez quelques secondes à chaque position : l'appli retient la meilleure valeur.",
+  "helpOutagesTitle": "Journal des coupures",
+  "helpOutagesBody": "Chaque perte d'internet est notée avec son début, sa fin et sa durée ; les coupures dues aux données coupées ou à « Relancer la connexion » sont marquées « volontaires ». Un résumé indique le nombre et la durée des coupures sur 24 heures et 7 jours.\n\nLe bouton d'export enregistre le journal en fichier CSV (lisible avec Excel), par exemple pour réclamer auprès de l'opérateur.",
+  "helpSpeedTestTitle": "Test de débit et comparatif des opérateurs",
+  "helpSpeedTestBody": "Le test de débit télécharge un fichier (5, 10 ou 25 Mo) à travers le modem et affiche le débit en Mb/s avec sa qualité : inexistant, faible, moyen, bon ou excellent. Il consomme des données de votre forfait. Les résultats sont gardés dans un historique.\n\nLe comparatif des opérateurs (raccourci sur le tableau de bord) regroupe, pour chaque SIM utilisée ces 7 derniers jours : signal moyen, débit moyen et coupures. Pratique pour choisir la SIM qui marche le mieux chez vous.",
+  "helpBackupTitle": "Sauvegarde et restauration",
+  "helpBackupBody": "« Exporter les réglages » enregistre dans un fichier les réglages Wi-Fi, APN, DHCP, mode réseau et détection de coupure. Le mot de passe administrateur n'est jamais exporté, mais le fichier contient le mot de passe Wi-Fi : gardez-le en lieu sûr.\n\n« Restaurer » réapplique une sauvegarde, par exemple après une réinitialisation d'usine. Vous choisissez les rubriques ; le DHCP redémarre le modem, et le Wi-Fi est appliqué en dernier car le téléphone devra s'y reconnecter.",
+  "helpNotificationsTitle": "Notifications",
+  "helpNotificationsBody": "MiFi peut vous prévenir quand internet est coupé ou revient, quand le signal est faible et quand un nouvel appareil se connecte. Réglez-les dans Réglages › Réglages de l'application › Notifications, et autorisez-les quand Android le demande.\n\nAppli ouverte, la surveillance est continue. Appli fermée, la surveillance continue (Réglages de l'application) vous prévient en quelques secondes ; sans elle, Android n'autorise qu'une vérification environ toutes les 15 minutes. Le téléphone doit être connecté au Wi-Fi du modem.",
+  "helpLanguageTitle": "Langue, thème et verrouillage",
+  "helpLanguageBody": "Dans Réglages › Réglages de l'application :\n• langue de l'appli (langue du téléphone, français ou anglais) ; l'option « Appliquer aussi à l'interface web du modem » change aussi la langue de la page web d'origine ;\n• thème automatique, clair ou sombre ;\n• verrouillage : MiFi demande l'empreinte digitale ou le code du téléphone à l'ouverture.",
+  "helpTroubleshootingTitle": "En cas de problème",
+  "helpTroubleshootingBody": "• « Impossible de joindre le modem » : vérifiez que le téléphone est connecté au Wi-Fi du modem, puis l'adresse du modem (192.168.100.1 par défaut).\n• « Session expirée » : l'appli se reconnecte seule ; si le mot de passe a été changé ailleurs, reconnectez-vous.\n• Wi-Fi coupé : rallumez-le avec le bouton du modem ou redémarrez le modem.\n• Mot de passe administrateur oublié : faites une réinitialisation d'usine avec le bouton RESET du modem.\n• Données mobiles en échec : vérifiez le Wi-Fi puis réessayez ; en dernier recours, redémarrez le modem.",
+  "helpLimitsTitle": "Ce que le modem ne permet pas",
+  "helpLimitsBody": "L'API du modem ne fournit pas ces informations, et l'appli ne les invente pas : niveau de batterie, données consommées, blocage d'un appareil, SMS, USSD, solde ou forfait de l'opérateur.",
+  "loginTitle": "Connexion au modem",
+  "loginSubtitle": "Connectez le téléphone au Wi-Fi du modem, puis saisissez le mot de passe administrateur.",
+  "loginPasswordLabel": "Mot de passe administrateur",
+  "loginRemember": "Mémoriser le mot de passe",
+  "loginRememberHint": "Enregistré chiffré sur ce téléphone, pour la connexion automatique",
+  "loginAction": "Se connecter",
+  "loginRetrySaved": "Réessayer avec le mot de passe enregistré",
+  "loginAddressTitle": "Adresse du modem",
+  "loginAddressLabel": "Adresse IP du modem",
+  "loginAddressHelper": "192.168.100.1 par défaut ; elle change si vous modifiez le DHCP",
+  "loginUseGateway": "Utiliser {address} (Wi-Fi actuel)",
+  "@loginUseGateway": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "loginResetAddress": "Rétablir {address}",
+  "@loginResetAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "loginTestAddress": "Tester",
+  "loginReachable": "Modem joignable à cette adresse.",
+  "loginDefaultPasswordHint": "Mot de passe jamais changé ? Il figure sur l'étiquette du modem.",
+  "mobileSimSection": "Carte SIM",
+  "mobileSimCurrent": "Emplacement actif : {slot}",
+  "@mobileSimCurrent": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileSimSwitchTitle": "Passer sur la SIM {number} ?",
+  "@mobileSimSwitchTitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "mobileSimSwitchWarning": "La bascule prend environ 20 secondes ; internet est coupé pendant ce temps. Le Wi-Fi reste actif.",
+  "mobileSimSwitching": "Bascule de SIM en cours (environ 20 s)…",
+  "mobileApnSection": "Profils APN",
+  "mobileApnHint": "Le modem choisit d'habitude l'APN selon la SIM. Ne le changez que si internet ne fonctionne pas ; demandez les paramètres à votre opérateur.",
+  "mobileApnEmpty": "Aucun profil APN sur le modem.",
+  "mobileApnActive": "Actif",
+  "mobileApnUse": "Utiliser ce profil",
+  "mobileApnUseTitle": "Changer de profil APN ?",
+  "mobileApnUseMessage": "Le modem utilisera le profil « {name} » pour se connecter à internet. La connexion peut être brièvement coupée.",
+  "@mobileApnUseMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileApnNew": "Nouveau profil APN",
+  "mobileApnNewHint": "Saisissez les paramètres fournis par votre opérateur. MCC et MNC sont pré-remplis d'après la SIM insérée.",
+  "mobileApnName": "Nom du profil",
+  "mobileApnApn": "APN",
+  "mobileApnPdpType": "Type PDP",
+  "mobileApnMcc": "MCC",
+  "mobileApnMnc": "MNC",
+  "mobileApnMccMnc": "MCC-MNC",
+  "mobileApnMccInvalid": "3 chiffres",
+  "mobileApnMncInvalid": "2 ou 3 chiffres",
+  "mobileApnAuth": "Authentification",
+  "mobileApnUsername": "Identifiant",
+  "mobileApnPassword": "Mot de passe",
+  "mobileApnPort": "Port",
+  "mobileApnPortInvalid": "Port entre 1 et 65535",
+  "mobileApnOptional": "Facultatif",
+  "mobileApnCreatedTitle": "Profil créé",
+  "mobileApnActivateNow": "Utiliser maintenant le profil « {name} » ?",
+  "@mobileApnActivateNow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileApnBlockerName": "Coupure des données (MiFi)",
+  "mobileModeSection": "Mode réseau",
+  "mobileModeChangeTitle": "Changer le mode réseau ?",
+  "mobileModeChangeMessage": "Le modem passera en « {mode} ». La connexion peut être brièvement coupée.",
+  "@mobileModeChangeMessage": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileModeUnknown": "Mode actuel non reconnu : {code}",
+  "@mobileModeUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileUsbLabel": "Partager internet par câble USB",
+  "mobileDetectSection": "Détection de coupure",
+  "mobileDetectHint": "Le modem vérifie la connexion internet en contactant ces adresses (IP ou nom, ex. 8.8.8.8 ou www.google.com).",
+  "mobileDetectLabel": "Détection de coupure",
+  "mobileDetectAddress": "Adresse {number}",
+  "@mobileDetectAddress": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "mobileDetectNeedAddress": "Indiquez au moins une adresse pour activer la détection.",
+  "outagesSummary": "Résumé (hors coupures volontaires)",
+  "outagesLast24h": "Dernières 24 heures",
+  "outagesLast7d": "7 derniers jours",
+  "outagesCountDuration": "{count, plural, one{{count} coupure} other{{count} coupures}} · {duration} au total",
+  "@outagesCountDuration": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "outagesEmpty": "Aucune coupure enregistrée.",
+  "outagesOngoing": "En cours",
+  "outagesPlanned": "Volontaire",
+  "outagesSince": "Depuis {time}",
+  "@outagesSince": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "outagesFromTo": "De {start} à {end}",
+  "@outagesFromTo": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "outagesNote": "Les coupures sont détectées en quelques secondes, appli ouverte ou avec la surveillance continue (environ toutes les 15 minutes sans elle). « Volontaire » = données coupées ou connexion relancée par l'appli.",
+  "outagesClearTitle": "Effacer l'historique",
+  "outagesClearMessage": "Toutes les coupures enregistrées seront supprimées.",
+  "outagesExport": "Exporter en CSV",
+  "outagesExported": "Journal exporté.",
+  "outagesExportCancelled": "Export annulé.",
+  "outagesCsvStart": "Début",
+  "outagesCsvEnd": "Fin",
+  "outagesCsvMinutes": "Durée (minutes)",
+  "outagesCsvPlanned": "Volontaire",
+  "outagesCsvOperator": "Opérateur (MCC-MNC)",
+  "signalLastHour": "Dernière heure",
+  "signalLast24h": "Dernières 24 h",
+  "signalEmpty": "Pas encore de mesure sur cette période. Laissez l'appli ouverte ou activez la vérification en arrière-plan.",
+  "signalStats": "Statistiques",
+  "signalCurrent": "Actuel",
+  "signalAverage": "Moyenne",
+  "signalBest": "Meilleur",
+  "signalWorst": "Plus faible",
+  "signalSamplesCount": "{count, plural, one{{count} mesure} other{{count} mesures}}",
+  "@signalSamplesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "signalHowItWorks": "Plus la valeur est proche de 0, meilleur est le signal : 4 barres à partir de -95 dBm, aucune en dessous de -115 dBm. Un point toutes les 30 s, appli ouverte ou avec la surveillance continue (environ toutes les 15 min sans elle).",
+  "bestLocationInstructions": "Déplacez lentement le modem et attendez quelques secondes à chaque position.",
+  "bestLocationUnit": "dBm",
+  "bestLocationRecord": "Meilleur signal : {value}",
+  "@bestLocationRecord": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bestLocationRecordAt": "Atteint à {time}",
+  "@bestLocationRecordAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "bestLocationReset": "Remettre à zéro",
+  "bestLocationTips": "Conseils : près d'une fenêtre, en hauteur, loin des murs épais et des appareils métalliques. Le téléphone vibre à chaque nouveau record.",
+  "speedTestSize": "Taille du fichier de test",
+  "speedTestMegabytes": "{size} Mo",
+  "@speedTestMegabytes": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "speedTestDataWarning": "Le test consomme cette quantité de données sur le forfait de votre SIM.",
+  "speedTestMbps": "{value} Mb/s",
+  "@speedTestMbps": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedTestProgress": "{received} Mo sur {total} Mo",
+  "@speedTestProgress": {
+    "placeholders": {
+      "received": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "speedTestDetails": "{size} Mo téléchargés · latence {latency} ms",
+  "@speedTestDetails": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "latency": {
+        "type": "String"
+      }
+    }
+  },
+  "speedTestStart": "Lancer le test",
+  "speedTestHistory": "Historique",
+  "speedTestEmpty": "Aucun test pour le moment.",
+  "speedTestClearTitle": "Effacer l'historique",
+  "speedTestClearMessage": "Tous les résultats de test seront supprimés.",
+  "speedTestNoInternet": "Pas d'accès à internet à travers le modem (données coupées ?).",
+  "speedTestTimeout": "Le serveur de test ne répond pas assez vite.",
+  "speedTestServer": "Le serveur de test a renvoyé une erreur. Réessayez plus tard.",
+  "speedTestNotOnModemWifi": "Le téléphone n'est pas connecté au Wi-Fi du modem : le test mesurerait ses propres données mobiles. Connectez-le au Wi-Fi du modem puis réessayez.",
+  "speedTestHow": "Le fichier est téléchargé depuis un serveur public à travers le modem ; le résultat dépend du réseau mobile, du signal et de l'heure.",
+  "speedQualityTitle": "Qualité du débit",
+  "speedQualityNone": "Inexistant",
+  "speedQualityPoor": "Faible",
+  "speedQualityFair": "Moyen",
+  "speedQualityGood": "Bon",
+  "speedQualityExcellent": "Excellent",
+  "speedQualityNoneHint": "Internet passe à peine.",
+  "speedQualityPoorHint": "Messages et navigation lente.",
+  "speedQualityFairHint": "Navigation et vidéo en qualité standard.",
+  "speedQualityGoodHint": "Vidéo HD et appels vidéo.",
+  "speedQualityExcellentHint": "Tous les usages, même sur plusieurs appareils.",
+  "speedQualityScale": "Inexistant : moins de 0,5 Mb/s · Faible : moins de 2 · Moyen : moins de 8 · Bon : moins de 25 · Excellent : 25 Mb/s et plus.",
+  "systemAccountSection": "Compte administrateur",
+  "systemChangePasswordHint": "Mot de passe de l'interface d'administration du modem",
+  "systemMaintenanceSection": "Redémarrage et réinitialisation",
+  "systemRebootHint": "Redémarrer règle souvent les lenteurs. Les appareils sont déconnectés environ 1 minute.",
+  "systemResetHint": "La réinitialisation d'usine efface tous les réglages du modem.",
+  "systemResetAction": "Réinitialisation d'usine",
+  "systemResetTitle": "Réinitialisation d'usine",
+  "systemResetWarning": "Tous les réglages du modem seront effacés. Le nom et le mot de passe du Wi-Fi, ainsi que le mot de passe administrateur, reviendront aux valeurs d'usine indiquées sur l'étiquette du modem. Il faudra reconnecter le téléphone au Wi-Fi d'usine.\n\nConseil : faites d'abord une sauvegarde de vos réglages.",
+  "systemResetBackupFirst": "Sauvegarder d'abord",
+  "systemResetSecond": "Dernière confirmation : cette opération est irréversible.",
+  "systemResetWord": "RÉINITIALISER",
+  "systemResetDoneTitle": "Réinitialisation lancée",
+  "systemResetDone": "Le modem redémarre avec ses réglages d'usine. Dans 1 à 2 minutes : connectez le téléphone au Wi-Fi d'usine (étiquette du modem), puis reconnectez-vous avec le mot de passe d'usine. Vous pourrez ensuite restaurer votre sauvegarde.",
+  "systemProduceSection": "Informations de fabrication",
+  "systemCalibration": "Calibrage",
+  "systemCalibrated": "Calibré",
+  "systemNotCalibrated": "Non calibré",
+  "systemWifiTest": "Test Wi-Fi",
+  "systemWifiTested": "Wi-Fi testé",
+  "systemWifiNotTested": "Wi-Fi non testé",
+  "systemModemSection": "Modem",
+  "systemSimSlots": "Emplacements SIM",
+  "systemWebLanguage": "Langue de l'interface web",
+  "systemCopyright": "Fabricant",
+  "systemToolsSection": "Outils",
+  "systemPasswordIntro": "Après le changement, l'appli se reconnecte toute seule avec le nouveau mot de passe.",
+  "systemOldPassword": "Mot de passe actuel",
+  "systemNewPassword": "Nouveau mot de passe",
+  "systemConfirmPassword": "Confirmer le nouveau mot de passe",
+  "systemPasswordRules": "4 à 32 caractères, sans espace ni accent",
+  "systemPasswordSame": "Le nouveau mot de passe doit être différent de l'actuel",
+  "systemPasswordMismatch": "Les deux mots de passe ne correspondent pas",
+  "systemPasswordChanged": "Mot de passe administrateur changé.",
+  "systemPasswordRefused": "Le modem a refusé le changement : vérifiez le mot de passe actuel.",
+  "wifiNetworkSection": "Réseau Wi-Fi",
+  "wifiSsidLabel": "Nom du réseau (SSID)",
+  "wifiSsidTooLong": "{max} caractères au maximum",
+  "@wifiSsidTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "wifiSecurityLabel": "Sécurité",
+  "wifiPasswordLabel": "Mot de passe Wi-Fi",
+  "wifiPasswordLength": "De {min} à {max} caractères",
+  "@wifiPasswordLength": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "wifiPasswordAscii": "Lettres sans accents, chiffres et symboles courants uniquement",
+  "wifiOpenWarning": "Réseau ouvert : n'importe qui à proximité pourra se connecter sans mot de passe.",
+  "wifiChannelLabel": "Canal",
+  "wifiChannelValue": "Canal {channel}",
+  "@wifiChannelValue": {
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiBroadcastLabel": "Diffusion du nom (SSID)",
+  "wifiBroadcastHiddenHint": "Désactivé : le réseau est invisible, il faut saisir son nom pour s'y connecter",
+  "wifiSaveTitle": "Enregistrer les réglages Wi-Fi ?",
+  "wifiSaveWarning": "Le Wi-Fi du modem va redémarrer : tous les appareils, y compris ce téléphone, seront déconnectés quelques instants. Si vous changez le nom ou le mot de passe, reconnectez le téléphone au nouveau réseau.",
+  "wifiReconnectMessage": "Le Wi-Fi redémarre. Reconnectez si besoin le téléphone au réseau « {ssid} ».",
+  "@wifiReconnectMessage": {
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiShareSection": "Partager le Wi-Fi",
+  "wifiShareQr": "Partager par QR code",
+  "wifiShareQrHint": "Vos invités le scannent avec l'appareil photo",
+  "wifiShareMessage": "Partager par message",
+  "wifiShareMessageHint": "Envoyer le nom et le mot de passe par WhatsApp, SMS…",
+  "wifiShareText": "Wi-Fi : {ssid}\nMot de passe : {password}",
+  "@wifiShareText": {
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiShareTextOpen": "Wi-Fi : {ssid} (sans mot de passe)",
+  "@wifiShareTextOpen": {
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiExpelHint": "Un appareil inconnu utilise votre Wi-Fi ? Changez le mot de passe en un geste et partagez le nouveau.",
+  "wifiApSection": "Point d'accès Wi-Fi",
+  "wifiApState": "État du Wi-Fi",
+  "wifiTurnOff": "Couper le Wi-Fi",
+  "wifiTurnOn": "Allumer le Wi-Fi",
+  "wifiTurnOffTitle": "Couper le Wi-Fi du modem ?",
+  "wifiTurnOffWarning": "Attention : ce téléphone perdra aussitôt la connexion avec le modem et l'appli ne pourra PAS rallumer le Wi-Fi. Il faudra appuyer sur le bouton du modem ou le redémarrer.",
+  "wifiTurnOffWord": "COUPER",
+  "wifiTurnedOffInfo": "Le Wi-Fi du modem est coupé. Pour le rallumer, appuyez sur le bouton du modem ou redémarrez-le, puis reconnectez le téléphone.",
+  "wifiQrInstructions": "Scannez ce code avec l'appareil photo d'un téléphone pour vous connecter au Wi-Fi.",
+  "wifiQrHiddenNote": "Le nom du réseau est masqué : le code contient l'information nécessaire pour s'y connecter quand même."
+}
